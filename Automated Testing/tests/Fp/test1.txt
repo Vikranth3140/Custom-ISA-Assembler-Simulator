@@ -1,0 +1,5 @@
+movf R3 $5.5
+movf R2 $2.5
+addf R0 R2 R3
+subf R1 R3 R2
+hlt
